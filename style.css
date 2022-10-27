@@ -1,0 +1,89 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,600&family=Roboto:ital,wght@1,100&display=swap');
+
+
+body{
+  text-align: center;
+  background-color: #ffeee2;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #280003;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+h1, h2{
+  color:#9f7e69;
+  font-family: 'Open Sans', sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color: #5a3d1b;
+  font-weight: bold;
+}
+
+a:hover{
+  text-decoration: underline;
+  color: rgb(161, 153, 153);
+}
+
+ul {
+  list-style: none
+}
+
+.container
+{
+  width: 500px;
+  margin: 0 auto;
+}
+
+.card-white
+{
+  background-color: white;
+  padding: 2px;
+  margin: 15px;
+  border: 1px solid rgba(148,146,164,0.2);
+  border-radius: 10px;
+  box-shadow: 5px 12px 14px 6px rgba(0,0,0,0.47);
+}
+
+.img_circle
+{
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+}
+
+.logo {
+  color: rgb(93, 61, 61);
+  list-style: none;
+  padding-left: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
